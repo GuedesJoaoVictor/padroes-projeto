@@ -1,5 +1,9 @@
 package br.ufsm.poli.csi.pp.criacao.exerciciof;
 
+/**
+ * @author gue10
+ * That is our Abstract Factory method.
+ * */
 public class Application implements GUIComponent {
 
     private GUIFactory guiFactory;

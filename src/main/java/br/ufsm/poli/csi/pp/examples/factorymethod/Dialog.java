@@ -1,4 +1,4 @@
-package br.ufsm.poli.csi.pp.teste.factorymethod;
+package br.ufsm.poli.csi.pp.examples.factorymethod;
 
 public interface Dialog {
     void render();

@@ -1,4 +1,4 @@
-package estruturais.exercicio3;
+package estruturais.exercicio3a;
 
 public class BancoException extends Exception {
 

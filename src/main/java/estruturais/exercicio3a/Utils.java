@@ -1,4 +1,4 @@
-package estruturais.exercicio3;
+package estruturais.exercicio3a;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

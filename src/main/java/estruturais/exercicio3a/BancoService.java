@@ -1,4 +1,4 @@
-package estruturais.exercicio3;
+package estruturais.exercicio3a;
 
 public interface BancoService {
     ContaBancaria criaContaBancaria(String cpf, Double saldo, ContaBancaria.TipoContaBancaria tipoContaBancaria,

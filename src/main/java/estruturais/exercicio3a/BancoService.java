@@ -5,6 +5,7 @@ public interface BancoService {
                                     boolean especial, Double limite);
 
     ContaBancaria excluiContaBancaria(Long numero) throws BancoException;
+
     void deposito(Long numeroConta, Double valorDeposito) throws BancoException;
 
     void saque (Long numeroConta, Double valorSaque) throws BancoException;

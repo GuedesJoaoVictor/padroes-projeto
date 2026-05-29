@@ -24,4 +24,5 @@ public class Caixa implements Componente {
         }
         return valor;
     }
+
 }

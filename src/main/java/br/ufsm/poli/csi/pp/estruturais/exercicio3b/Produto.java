@@ -5,6 +5,9 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Collection;
+import java.util.List;
+
 @Data
 @Builder
 @NoArgsConstructor
@@ -18,5 +21,10 @@ public class Produto implements Componente {
     @Override
     public Double getValor() {
         return valor;
+    }
+
+    @Override
+    public Collection<Componente> getComponentes() {
+        return List.of();
     }
 }

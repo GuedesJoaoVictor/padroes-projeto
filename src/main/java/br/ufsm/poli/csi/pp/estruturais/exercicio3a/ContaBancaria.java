@@ -1,4 +1,4 @@
-package estruturais.exercicio3a;
+package br.ufsm.poli.csi.pp.estruturais.exercicio3a;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

@@ -1,4 +1,4 @@
-package estruturais.exercicio3b;
+package br.ufsm.poli.csi.pp.estruturais.exercicio3b;
 
 import java.util.ArrayList;
 import java.util.Arrays;

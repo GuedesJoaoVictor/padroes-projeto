@@ -1,4 +1,4 @@
-package br.ufsm.poli.csi.pp.estruturais.exercicioc;
+package br.ufsm.poli.csi.pp.estruturais.exercicio3c;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

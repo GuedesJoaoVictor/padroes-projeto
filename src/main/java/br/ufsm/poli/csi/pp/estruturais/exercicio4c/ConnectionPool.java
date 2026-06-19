@@ -13,12 +13,12 @@ public class ConnectionPool {
 
     public static final int MAX_CONNECTIONS = 20;
     public static final int MIN_CONNECTIONS = 3;
-    private List<Connection> availableConnections = new ArrayList<>();
-    private List<Connection> createdConnections = new ArrayList<>();
-    private DataSource dataSource;
+    private final List<Connection> availableConnections = new ArrayList<>();
+    private final List<Connection> createdConnections = new ArrayList<>();
+    private final DataSource dataSource;
 
     private class ConnectionInvHandler implements InvocationHandler {
-        private Connection connection;
+        private final Connection connection;
 
         public ConnectionInvHandler(Connection connection) {
             this.connection = connection;
